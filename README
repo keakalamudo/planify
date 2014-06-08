@@ -1,0 +1,85 @@
+project
+=======
+CSULB DEGREE PLANNER ("Planify")
+============================================================================================================
+
+Project Description: 
+
+  This web app is designed to simplify the process of planning for your degree. 
+  Depending on what major you are in. 
+  
+  We streamline your degree progress allowing you to see what classes you still need to take.
+  We help you calculate your raw GPA which also allows you to plan out how future progress in 
+  subsequent classes will affect your overall GPA. 
+  
+  We also have a drag-drop feature that will literally help you plan out visually what courses you still
+  have to take allowing you to place classes in future semesters and then updates your total unit count and 
+  course specific unit count. 
+  
+==============================================================================================================
+
+User Instructions:
+
+
+
+
+
+==============================================================================================================
+
+Methodology: 
+
+  To use the web app you must first select you major from the drop down menu. We have the web app set for just 
+  Computer Science majors at CSULB. Once you have selected your major and your catalog year you will be redirected
+  to the "main.html" which will dynamically allocate the appropriate classes for your major to the page. 
+  
+  Once classes are loaded you can go ahead and click the classes you have taken with the grade you received for 
+  the class. If all you need to do is calculate your GPA then if you scroll down and click on the "Calculate"
+  button and underneath you will see your raw gpa score. This is done by adding an .click() to the calc button. 
+  
+  This drive the GPA calculation methods when the button is clicked. We add all ".input-group" to an array then 
+  we iterate the array mapping all elements wth the ".form-control" class and its value (grades). 
+  
+  As we iterate through the array any ".form-control" (class) and grade returns 1 allowing our App to know that has
+  a value if it has nothing in there it returns a 0 which lets our app that that class is yet to be taken. 
+  
+  To handle validation we return anything that doesnt fit in our conditions as a 0. The user is able to enter: 
+  {"A","a","4","B","b","3","C","c","2","D","d","1","F","f","0"} these scores are parsed to integers and included
+  in the raw gpa score calculation. This also allows the user to see how their GPA will be affected by predicted
+  performance in future classes.
+  
+  The plan button was created to give the user a better visual representation of their degree over the course of the
+  years they plan to be at the university. Once the user clicks the plan button they will be directed to the 
+  plan.html page that show the user their total unit count and allows them to drag and drop their classes into their
+  preferred semester with each drap updating the associate class type unit couunt
+  
+  
+  
+  
+  
+
+
+==============================================================================================================
+
+==============================================================================================================
+
+Library/ Modules/ Functions:
+  Javascript
+  JQuery 
+  Bootstrap 3
+  HTML 5
+  LESS 
+  
+  .click()
+  .map()
+  .toArray()
+  .trim()
+  .text()
+  .replace()
+  .join()
+  .draggable()
+  .append
+  .split()
+
+
+
+==============================================================================================================
