@@ -34,6 +34,8 @@
 body {
   position: relative; /* For scrollyspy */
   padding-top: 50px; /* Account for fixed navbar */
+  background:url(../images/optimized/oppback.jpg) center center no-repeat fixed;
+	background-size:cover;
 }
 
 /* Keep code small in tables on account of limited space */
