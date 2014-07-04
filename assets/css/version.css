@@ -7,6 +7,9 @@ padding : 0;
 font-size : 0.75em;
 line-height : 1.231;
 }
+.intro-home{
+  background-color:#F1F1F1;
+}
 /*h1 { font-family: 'Gochi Hand', cursive;}*/
 body, button, input, select, textarea {
 font-family : 'GothamBook', Gotham, Helvetica, Arial, sans-serif;
@@ -19,6 +22,24 @@ width : 100%;
 padding-top : 165px;
 position : relative;
 }
+
+#menu {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 40px;
+	width: 40px;
+	z-index: 2;
+	text-align: center;
+	border: 2px solid rgba(0, 0, 0, 0);
+	-webkit-transition: border-color .25s ease-in-out;
+	-moz-transition: border-color .25s ease-in-out;
+	-o-transition: border-color .25s ease-in-out;
+	transition: border-color .75s ease-in-out;
+
+
+}
+
 .centered{
 position: fixed;
   top: 50%;
