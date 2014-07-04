@@ -46,7 +46,14 @@ position : relative;
   color: #333
 }
 
+.welcometxt{
+position: fixed;
+  top: 65%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -250px;
 
+}
 
 .centered{
 position: fixed;
