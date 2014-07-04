@@ -36,9 +36,17 @@ position : relative;
 	-moz-transition: border-color .25s ease-in-out;
 	-o-transition: border-color .25s ease-in-out;
 	transition: border-color .75s ease-in-out;
-
-
 }
+
+.intro-welcome{
+	position: absolute;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+  color: #333
+}
+
+
 
 .centered{
 position: fixed;
