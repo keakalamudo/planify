@@ -45,6 +45,14 @@ position : relative;
 	width: 100%;
   color: #333
 }
+.gradQuote{
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -250px;
+  font-family: Neue Helevetica;
+}
 
 .welcometxt{
   position: fixed;
@@ -52,7 +60,7 @@ position : relative;
   left: 50%;
   margin-top: -10px;
   margin-left: -250px;
-  font-family: Neue Helevetica
+  font-family: Neue Helevetica;
 }
 
 .centered{
