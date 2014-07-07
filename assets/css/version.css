@@ -47,11 +47,13 @@ position : relative;
 }
 .gradQuote{
   position: fixed;
-  top: 20%;
+  top: 50%;
   left: 50%;
-  margin-top: -10px;
+  margin-top: -40px;
   margin-left: -250px;
   font-family: Neue Helevetica;
+  font-size: 45px;
+
 }
 
 .welcometxt{
