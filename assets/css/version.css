@@ -74,6 +74,16 @@ position: fixed;
 
 }
 
+.dir {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  margin-top: 10px;
+  margin-left: -250px;
+  font-family: Neue Helevetica;
+  font-size: 18px;
+}
+
 #mm-home #mm-home-landing .ctas {
 left:0;
 position:relative;
